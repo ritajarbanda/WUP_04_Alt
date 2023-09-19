@@ -67,7 +67,14 @@ By looking at the favstats, the average values between BLACK and WHITE are very 
 model1 <- aov(WORDSUM~RACE,data=mydata)
 summary.aov(model1)
 ```
+P-value= 0.0182
 
+By looking at the one way anova test, our p-value is less than 0.5 we can conclude that we need to run one more test to be able to analyze the data.  
+
+```{r}
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
