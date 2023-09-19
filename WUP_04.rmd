@@ -75,6 +75,9 @@ By looking at the one way anova test, our p-value is less than 0.5 we can conclu
 par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
+
+By looking at the multiple corporation test, we can see that the zero confidence level intersect with the OTHER-BLACK  and the WHITE-BLACK that there is no difference in the average scores in the WORDSUM test between each pair of these races. However the zero confidence level dos not intersect with the WHITE-OTHER which means that there is difference in the average scores between these races and that's cause cur p-value to be small.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
