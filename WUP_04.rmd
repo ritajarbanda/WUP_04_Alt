@@ -57,6 +57,8 @@ By looking at the box plot graph, its not clear enough if there is a significant
 favstats(WORDSUM~RACE,data=mydata)
 ```
 
+By looking at the favstats, the average values between BLACK and WHITE are very close however the mean value for the OTHER race is have a lower value meaning that there is a difference between between the OTHER and both the WHITE and BLACK races
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
