@@ -47,6 +47,8 @@ basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
+By looking at the box plot graph, its not clear enough if there is a significant difference between the WHITE and other RACES. It also not clear is there is a difference between the BLACK and other RACES 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
