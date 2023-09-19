@@ -30,7 +30,9 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 mydata <- mydata %>%
 mutate(across(where(is.character), as.factor))
 ```
+
 We change all the character variable to factor variables.The type of this problem needs a numerical variable called WORDSUM and a factor variable called RACE. We will be using a group of helper files to help us complete the analysis og Numerical and factorial variables.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
